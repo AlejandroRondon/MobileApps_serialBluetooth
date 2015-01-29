@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblFromBT"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="left"
+        android:text="@string/sfromBT" />
+
+    <EditText
+        android:id="@+id/txtFromBT"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:lines="@integer/lines"
+        android:minLines="@integer/lines"
+        android:text="@string/sfromBT" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:columnCount="4"
+        android:rowCount="4" >
+
+        <Button
+            android:id="@+id/key1"
+            android:layout_column="0"
+            android:layout_marginLeft="30dp"
+            android:layout_row="0"
+            android:text="@string/sKey1" />
+
+        <Button
+            android:id="@+id/key2"
+            android:layout_gravity="left"
+            android:text="@string/sKey2" />
+
+        <Button
+            android:id="@+id/key3"
+            android:layout_gravity="left"
+            android:text="@string/sKey3" />
+
+        <Button
+            android:id="@+id/keyA"
+            android:layout_gravity="left"
+            android:text="@string/sKeyA" />
+
+        <Button
+            android:id="@+id/key4"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="@string/sKey4" />
+
+        <Button
+            android:id="@+id/key5"
+            android:layout_gravity="left"
+            android:text="@string/sKey5" />
+
+        <Button
+            android:id="@+id/key6"
+            android:layout_gravity="left"
+            android:text="@string/sKey6" />
+
+        <Button
+            android:id="@+id/keyB"
+            android:layout_gravity="left"
+            android:text="@string/sKeyB" />
+
+        <Button
+            android:id="@+id/key7"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="@string/sKey7" />
+
+        <Button
+            android:id="@+id/key8"
+            android:layout_gravity="left"
+            android:text="@string/sKey8" />
+
+        <Button
+            android:id="@+id/key9"
+            android:layout_gravity="left"
+            android:text="@string/sKey9" />
+
+        <Button
+            android:id="@+id/keyC"
+            android:layout_gravity="left"
+            android:text="@string/sKeyC" />
+
+        <Button
+            android:id="@+id/keyAst"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="@string/sKeyAst" />
+
+        <Button
+            android:id="@+id/key0"
+            android:layout_gravity="left"
+            android:text="@string/sKey0" />
+
+        <Button
+            android:id="@+id/keyNum"
+            android:layout_gravity="left"
+            android:text="@string/sKeyNum" />
+
+        <Button
+            android:id="@+id/keyD"
+            android:layout_gravity="left"
+            android:text="@string/sKeyD" />
+    </GridLayout>
+
+    <EditText
+        android:id="@+id/txtStringToSend"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sSend" />
+
+</LinearLayout>

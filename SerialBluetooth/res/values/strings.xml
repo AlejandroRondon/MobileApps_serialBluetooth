@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SerialBluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sKey0">0</string>
+    <string name="sKey1">1</string>
+    <string name="sKey2">2</string>
+    <string name="sKey3">3</string>
+    <string name="sKey4">4</string>
+    <string name="sKey5">5</string>
+    <string name="sKey6">6</string>
+    <string name="sKey7">7</string>
+    <string name="sKey8">8</string>
+    <string name="sKey9">9</string>
+    <string name="sKeyA">A</string>
+    <string name="sKeyB">B</string>
+    <string name="sKeyC">C</string>
+    <string name="sKeyD">D</string>
+    <string name="sKeyAst">*</string>
+    <string name="sKeyNum">#</string>
+    <string name="sfromBT">SMS from Bluetooth</string>
+    <string name="sSend">Send</string>
+</resources>

@@ -163,7 +163,8 @@ public class FragmentKeyboard extends Fragment  implements View.OnClickListener 
             break;
             case R.id.btnSend:
             	keyCommunicator.writtenString(stringTosend.getText().toString());
-            break;
+            	stringTosend.setText("");
+           break;
         }
 		
 	}

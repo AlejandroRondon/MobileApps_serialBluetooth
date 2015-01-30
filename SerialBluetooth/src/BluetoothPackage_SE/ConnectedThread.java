@@ -1,4 +1,4 @@
-package com.Serialbluetooth.serialbluetooth;
+package BluetoothPackage_SE;
 
 import java.io.IOException;
 import java.io.InputStream;

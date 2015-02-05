@@ -33,8 +33,11 @@ public class MainActivity extends Activity implements InterfaceKeyboard,Interfac
 
 		    
 			/*************************BLUETOOTH******************************/
-
-			bluetooth = new Bluetooth(this, getBaseContext());
+			// MAC-address of Bluetooth module (you must edit this line)
+		    String nameTag = "Bluetooth: Moviles";
+			String address = "00:15:FF:F3:9E:40";
+			
+			bluetooth = new Bluetooth(nameTag,address,this, getBaseContext());
 	  }
 	   
 
@@ -49,7 +52,7 @@ public class MainActivity extends Activity implements InterfaceKeyboard,Interfac
 	  @Override
 	  public void onPause() {
 	    super.onPause();
-	    bluetooth.bluetoothOnPause();
+	   bluetooth.bluetoothOnPause();
 
 	  }
 	    
@@ -101,11 +104,12 @@ public class MainActivity extends Activity implements InterfaceKeyboard,Interfac
 
 	@Override
 	public void receivedString(String received) {
+		/**ACA SE IMPLEMENTA LO QUE SE QUIERA HACER UNA VEZ SE RECIBA UNA TRAMA**/
 		// TODO Auto-generated method stub
     	@SuppressWarnings("unused")
 		View view = getCurrentFocus();	//get the current view
     	TextView lblTexto = (TextView) findViewById(R.id.txtFromBT);
-    	lblTexto.setText( received);            // update TextView
+    	lblTexto.setText(received);            // update TextView
 		
 	}
 }
